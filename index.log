@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.6)  8 APR 2025 20:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.6)  9 APR 2025 13:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -654,33 +654,24 @@ l.116     \item G
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: 174AF20CB3504BB82D12D04701A91DDF;1496.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                index
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'index.run.xml'.
 \openout1 = `index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18753 strings out of 473681
- 331535 string characters out of 5718719
- 1180295 words of memory out of 5000000
- 41626 multiletter control sequences out of 15000+600000
+ 18761 strings out of 473681
+ 331909 string characters out of 5718719
+ 1180443 words of memory out of 5000000
+ 41632 multiletter control sequences out of 15000+600000
  565516 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,81p,941b,1747s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,81p,965b,1747s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Nathan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on index.pdf (4 pages, 173106 bytes).
+Output written on index.pdf (4 pages, 177259 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

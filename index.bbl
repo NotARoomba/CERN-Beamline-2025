@@ -19,6 +19,115 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{france2025electrically}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=eca7a644625665b74453fc6ba9950ce3}{%
+           family={France},
+           familyi={F\bibinitperiod},
+           given={Quentin},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=be72f6a1b9dba78a8699c40b8de54372}{%
+           family={Jeong},
+           familyi={J\bibinitperiod},
+           given={Yunhyeon},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0640bfe5b0e133b281b62b50942fc63d}{%
+           family={Kamiyama},
+           familyi={K\bibinitperiod},
+           given={Akinori},
+           giveni={A\bibinitperiod}}}%
+        {{hash=911177c14817906f21c83df6a6902138}{%
+           family={Mano},
+           familyi={M\bibinitperiod},
+           given={Takaaki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8ce5f5921487ff47552d111f1ec3d6bb}{%
+           family={Sasaki},
+           familyi={S\bibinitperiod},
+           given={Ken-ichi},
+           giveni={K\bibinithyphendelim i\bibinitperiod}}}%
+        {{hash=34a7cc93b1847a31f17a9b69d612b377}{%
+           family={Hotta},
+           familyi={H\bibinitperiod},
+           given={Masahiro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1f221f3f2cf935e0594bc7c21a141f37}{%
+           family={Yusa},
+           familyi={Y\bibinitperiod},
+           given={Go},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{99a4cf2c874b981d570eed5ff6fa2fd5}
+      \strng{fullhash}{d9386e0fd7309ed67afe3dd4e9ffbd47}
+      \strng{fullhashraw}{d9386e0fd7309ed67afe3dd4e9ffbd47}
+      \strng{bibnamehash}{99a4cf2c874b981d570eed5ff6fa2fd5}
+      \strng{authorbibnamehash}{99a4cf2c874b981d570eed5ff6fa2fd5}
+      \strng{authornamehash}{99a4cf2c874b981d570eed5ff6fa2fd5}
+      \strng{authorfullhash}{d9386e0fd7309ed67afe3dd4e9ffbd47}
+      \strng{authorfullhashraw}{d9386e0fd7309ed67afe3dd4e9ffbd47}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.mes-hall}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv preprint}
+      \field{month}{2}
+      \field{note}{Version 1 submitted February 3, 2025}
+      \field{title}{Electrically induced bulk and edge excitations in the fractional quantum Hall regime}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2502.01052
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2502.01052v1
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2502.01052v1
+      \endverb
+    \endentry
+    \entry{hsu2010anomalous}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=995280a910f6df09ea84e07e4c2bddbf}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Ya-Fen},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=8f470f04e493ac4d69f1bc3bc6beead9}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Guang-Yu},
+           giveni={G\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{fullhash}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{fullhashraw}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{bibnamehash}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{authorbibnamehash}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{authornamehash}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{authorfullhash}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{authorfullhashraw}{49d22975bdea6f49acf43e335e55ebe9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.mes-hall}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv preprint}
+      \field{month}{8}
+      \field{note}{Version 1 submitted August 4, 2010; last updated October 30, 2018}
+      \field{title}{Anomalous integer quantum Hall effect in AA-stacked bilayer graphene}
+      \field{year}{2010}
+      \verb{eprint}
+      \verb 1008.0748
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1008.0748v1
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1008.0748v1
+      \endverb
+    \endentry
     \entry{landau1930diamagnetismus}{article}{}{}
       \name{author}{1}{}{%
         {{hash=cd545b80546b076f776588900c84fce0}{%
