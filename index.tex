@@ -1,0 +1,124 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{booktabs}
+\usepackage{biblatex}
+\usepackage{csquotes}
+\addbibresource{refs.bib}
+
+\title{Probing Graphene's Anomalous Quantum Hall Effect via Relativistic Electron Beam Scattering}
+\author{Nathan Daniel Alspaugh, Juan Pablo Sojo, Mateo Penaranda}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% Introduction
+\section{Introduction}
+The Quantum Hall Effect (QHE), a phenomenon where the electrical conductivity of a material becomes quantized into discrete steps under strong magnetic fields, exhibits unique behavior in graphene at room temperature. \cite{Novoselov2007} Unlike conventional materials, graphene's electrons behave as massless particles called \textit{Dirac fermions}, leading to a "half-integer" QHE where conductivity plateaus occur at values of \(\sigma_{xy} = \pm(4e^2/h)(n + 1/2)\) instead of integers. This anomaly arises from graphene's hexagonal atomic structure, where electrons follow the relativistic Dirac equation \cite{semenoff1984condensed}. Our experiment aims to probe these quantum states using DESY's relativistic electron beam, eliminating the need for cryogenic temperatures or invasive electrical contacts.
+
+% Why We Want to Go to DESY
+\section{Why We Want to Go to DESY}
+DESY's infrastructure is uniquely suited for this study. The 1-6 GeV electron beam provides relativistic particles whose energies align with graphene's Dirac fermion dynamics. DESY's 1.35 T dipole electromagnet, a fixed installation in the experimental area, enables the strong magnetic fields required to induce Landau quantization - the formation of discrete energy levels in graphene. Combined with beam telescopes (silicon detectors tracking particle trajectories) and lead-glass calorimeters (measuring energy deposition), this setup allows us to correlate scattering patterns with graphene's quantum states. As students, this opportunity bridges classroom physics with cutting-edge research, offering hands-on training in accelerator science and quantum materials.
+
+% Methodology
+\section{Experiment and Methodology}
+\subsection{Experimental Design}
+The experiment directs DESY's electron beam through a suspended graphene sample (2 cm × 2 cm) under DESY's dipole magnet (Fig. \ref{fig:setup}). The magnetic field induces Landau levels in graphene, altering the beam's scattering profile. Key components include:
+\begin{itemize}
+    \item \textbf{Graphene Sample}: Monolayer on SiC substrate (commercially sourced).
+    \item \textbf{Dipole Magnet}: Generates 1.35 T field perpendicular to the graphene plane.
+    \item \textbf{Beam Telescopes}: Track scattering angles with \(\mu\)m precision.
+    \item \textbf{Calorimeters}: Measure energy loss via lead-glass detectors.
+\end{itemize}
+
+\begin{figure}[ht!]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{setup_diagram.png}
+    \caption{(a) DESY beamline with graphene sample; (b) Dipole magnet alignment; (c) Detection system.}
+    \label{fig:setup}
+\end{figure}
+
+\subsection{Theoretical Framework}
+\subsubsection{Landau Levels in Graphene}
+Landau levels (LLs) are quantized energy states that electrons occupy when subjected to a perpendicular magnetic field \cite{landau1930diamagnetismus}. In conventional materials, these levels arise from the cyclotron motion of electrons, where their classical circular orbits become quantized due to quantum mechanics. However, graphene's unique electronic structure—governed by the relativistic Dirac equation for massless fermions—leads to fundamentally distinct LL behavior.
+
+When a magnetic field \(B\) is applied perpendicular to graphene's plane, the Lorentz force confines the Dirac fermions (graphene's electrons) into discrete orbits. Solving the Dirac equation under these conditions yields the following energy spectrum:
+\begin{equation}
+    E_n = \text{sgn}(n)\hbar v_F \sqrt{2eB|n|}, \quad n = 0, \pm1, \pm2, \ldots
+\end{equation}
+Here:
+\begin{itemize}
+    \item \(\hbar\) (Reduced Planck constant, \(1.05 \times 10^{-34} \, \text{J}\cdot\text{s}\)): Governs the scale of quantum effects.
+    \item \(v_F\) (Fermi velocity, \(1 \times 10^6 \, \text{m/s}\)): Replaces the effective mass in non-relativistic systems, reflecting graphene's linear energy-momentum dispersion (\(E \propto |k|\)).
+    \item \(e\) (Elementary charge, \(1.6 \times 10^{-19} \, \text{C}\)): Charge of the electron.
+    \item \(B\) (Magnetic field strength, 1-1.35 T): Determines the density of LLs—stronger fields increase the spacing between levels.
+    \item \(n\) (Landau level index): An integer (\(n = 0, \pm1, \pm2, \ldots\)) labeling the quantized states. Unlike conventional materials, \(n = 0\) is allowed, corresponding to a zero-energy state where electrons and holes coexist.
+\end{itemize}
+
+The \(\sqrt{B|n|}\) dependence is a hallmark of graphene's relativistic nature. In non-relativistic materials (e.g., semiconductors), LLs scale linearly with \(B\) and \(n\): \(E_n \propto B(n + 1/2)\). Graphene's square-root relationship arises because its electrons obey the Dirac equation, which inherently links energy to the square root of momentum. This leads to unequally spaced LLs (e.g., \(E_1 - E_0 \neq E_2 - E_1\)) and the anomalous half-integer Quantum Hall Effect. The \(\text{sgn}(n)\) term ensures symmetry between electron (\(n > 0\)) and hole (\(n < 0\)) states, a direct consequence of graphene's bipartite lattice structure and Dirac cone geometry.
+
+\subsubsection{Hall Conductivity Quantization}
+In quantum Hall systems, when a strong magnetic field is applied perpendicular to a 2D material, electrons move in circular orbits (Landau levels). Remarkably, the transverse (Hall) conductivity \(\sigma_{xy}\) becomes quantized in integer multiples of \(e^2/h\), a fundamental consequence of topology and gauge invariance.
+
+The Quantum Hall Effect (QHE) in graphene exhibits a hallmark deviation from conventional materials: its Hall conductivity \(\sigma_{xy}\) quantizes at \textit{half-integer} multiples of \(4e^2/h\), expressed as:
+\begin{equation}
+    \sigma_{xy} = \pm \frac{4e^2}{h} \left(n + \frac{1}{2}\right), \quad n = 0, \pm1, \pm2, \ldots
+\end{equation}
+This anomalous quantization arises from two unique features of graphene:
+
+\begin{itemize}
+    \item \textbf{Fourfold Degeneracy (\(4e^2/h\)):} Each Landau level in graphene accommodates four independent electron states due to its two spin orientations (spin-up/spin-down) and two valleys (\(K\) and \(K'\) points in the Brillouin zone). This degeneracy multiplies the conventional conductance quantum \(e^2/h\) by 4.
+
+    \item \textbf{Half-Integer Offset (\(n + 1/2\)):} The \(1/2\) shift originates from the Berry phase \(\pi\) acquired by Dirac fermions completing a cyclotron orbit. In graphene, the honeycomb lattice's symmetry imposes a geometric phase of \(\pi\) on circulating electrons, effectively altering the boundary conditions for quantization. This contrasts with non-relativistic materials, where the Berry phase is zero and conductivity quantizes at integers (\(n\)).
+\end{itemize}
+
+The filling factor \(\nu\), defined as \(\nu = n_e h / eB\) (where \(n_e\) is the electron density), determines the occupancy of Landau levels. In graphene, the relationship \(\nu = \pm4(n + 1/2)\) leads to conductivity plateaus at \(\nu = \pm2, \pm6, \pm10, \ldots\). These plateaus correspond to fully filled Landau levels, where scattering is suppressed, and \(\sigma_{xy}\) becomes \textit{universally precise}, independent of material defects or sample geometry.
+
+\vspace{0.2cm}
+\noindent
+\textbf{Why This Matters:} The half-integer QHE in graphene is not merely a theoretical curiosity—it underscores the material's relativistic electronic structure and topological robustness. Observed even at room temperature under strong magnetic fields (\(\sim10\) T), this phenomenon highlights graphene's potential for quantum metrology and fault-tolerant electronics.
+\subsection{Parameter Space}
+The experiment systematically varies three key parameters to map graphene's Quantum Hall response under relativistic beam conditions. These parameters were chosen to isolate the effects of Landau quantization, relativistic coupling, and particle-antiparticle symmetry:
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c}
+        \textbf{Parameter}     & \textbf{Range}   & \textbf{Purpose}                                  \\
+        \hline
+        Magnetic Field (\(B\)) & 1-1.35 T         & Controls the spacing between Landau levels (LLs). \\
+        Beam Energy            & 1-6 GeV          & Matches \(v_F \approx c/300\)                     \\
+        Beam Charge            & \(e^-\), \(e^+\) & Tests symmetry.                                   \\
+    \end{tabular}
+    \caption{Key experimental parameters and their roles in probing graphene's Quantum Hall Effect.}
+    \label{tab:params}
+\end{table}
+
+\begin{itemize}
+    \item \textbf{Magnetic Field (\(B\)):} Landau levels in graphene scale as \(E_n \propto \sqrt{B|n|}\). At \(B = 1.35\) T, the \(n=1\) LL lies \(\sim\)100 meV above the \(n=0\) level, a resolvable energy gap for DESY's calorimeters. Reducing \(B\) to 1 T compresses LL spacing, testing the detector's resolution limits.
+
+    \item \textbf{Beam Energy:} Electrons at 1 GeV (\(v \approx 0.94c\)) interact weakly with graphene's Dirac fermions, while 6 GeV electrons (\(v \approx 0.999c\)) achieve maximal relativistic coupling. This range allows us to distinguish classical scattering regimes from quantum-resonant interactions.
+
+    \item \textbf{Beam Charge:} Positrons (\(e^+\)) probe whether the QHE's half-integer quantization depends on particle charge. A symmetry violation could indicate sublattice polarization or Berry phase modifications. \cite{LIU2017}
+\end{itemize}
+
+By combining these parameters, we reconstruct graphene's Quantum Hall plateaus (\(\sigma_{xy} = \pm2, \pm6, \ldots \times 4e^2/h\)) and test theoretical predictions under extreme conditions. For example, high \(B\) and low beam energy isolate \(n=0\) LL behavior, while positron beams explore antimatter analogs of Dirac fermion dynamics.
+
+\section{Materials and Budget}
+A detailed cost breakdown is available in our \href{https://docs.google.com/spreadsheets/d/EXAMPLE}{Google Sheets}. Major expenses include:
+\begin{itemize}
+    \item Graphene sample: \$200
+    \item Signal amplifiers: \$150
+    \item Vacuum chamber adapters: \$100
+\end{itemize}
+
+% References
+\printbibliography
+
+\end{document}
