@@ -15,7 +15,7 @@
 \addbibresource{refs.bib}
 
 \title{Probing Graphene's Anomalous Quantum Hall Effect via Relativistic Electron Beam Scattering}
-\author{Nathan Daniel Alspaugh, Juan Pablo Sojo, Mateo Peñaranda, \\Valeria Quintero, Juliana Taboada, Laura Diaz, \\Nairon Barrios, Samuel Correa, Isabella Altamar}
+\author{Nathan Daniel Alspaugh, Juan Pablo Sojo, Mateo Peñaranda, \\Valeria Quintero, Juliana Taboada, Laura Díaz, \\Nairon Barrios, Samuel Correa, Isabella Altamar}
 \date{\today}
 
 \begin{document}
@@ -52,14 +52,6 @@ When a magnetic field \(B\) is applied perpendicular to graphene's plane, the Lo
 \begin{equation}
     E_n = \text{sgn}(n)\hbar v_F \sqrt{2eB|n|}, \quad n = 0, \pm1, \pm2, \ldots
 \end{equation}
-Here:
-\begin{itemize}
-    \item \(\hbar\) (Reduced Planck constant, \(1.05 \times 10^{-34} \, \text{J}\cdot\text{s}\)): Governs the scale of quantum effects.
-    \item \(v_F\) (Fermi velocity, \(1 \times 10^6 \, \text{m/s}\)): Replaces the effective mass in non-relativistic systems, reflecting graphene's linear energy-momentum dispersion (\(E \propto |k|\)).
-    \item \(e\) (Elementary charge, \(1.6 \times 10^{-19} \, \text{C}\)): Charge of the electron.
-    \item \(B\) (Magnetic field strength, 1-1.35 T): Determines the density of LLs—stronger fields increase the spacing between levels.
-    \item \(n\) (Landau level index): An integer (\(n = 0, \pm1, \pm2, \ldots\)) labeling the quantized states. Unlike conventional materials, \(n = 0\) is allowed, corresponding to a zero-energy state where electrons and holes coexist.
-\end{itemize}
 
 The \(\sqrt{B|n|}\) dependence is a hallmark of graphene's relativistic nature. In non-relativistic materials (e.g., semiconductors), LLs scale linearly with \(B\) and \(n\): \(E_n \propto B(n + 1/2)\). Graphene's square-root relationship arises because its electrons obey the Dirac equation, which inherently links energy to the square root of momentum. This leads to unequally spaced LLs (e.g., \(E_1 - E_0 \neq E_2 - E_1\)) and the anomalous half-integer Quantum Hall Effect. The \(\text{sgn}(n)\) term ensures symmetry between electron (\(n > 0\)) and hole (\(n < 0\)) states, a direct consequence of graphene's bipartite lattice structure and Dirac cone geometry.
 
@@ -84,9 +76,6 @@ This anomalous quantization arises from two unique features of graphene:
 
 The filling factor \(\nu\), defined as \(\nu = n_e h / eB\) (where \(n_e\) is the electron density), determines the occupancy of Landau levels. In graphene, the relationship \(\nu = \pm4(n + 1/2)\) leads to conductivity plateaus at \(\nu = \pm2, \pm6, \pm10, \ldots\). These plateaus correspond to fully filled Landau levels, where scattering is suppressed, and \(\sigma_{xy}\) becomes \textit{universally precise}, independent of material defects or sample geometry.
 
-\vspace{0.2cm}
-\noindent
-\textbf{Why This Matters:} The half-integer QHE in graphene is not merely a theoretical curiosity—it underscores the material's relativistic electronic structure and topological robustness. Observed even at room temperature under strong magnetic fields (\(\sim10\) T), this phenomenon highlights graphene's potential for quantum metrology and fault-tolerant electronics.
 \subsection{Experimental Design}
 DESY's infrastructure is perfect for this study. The 1-6 GeV/c electron beam provides relativistic particles whose energies align with graphene's Dirac fermion dynamics. DESY's 1.35 T dipole electromagnet, enables the strong magnetic fields required to produce Landau quantization - the formation of discrete energy levels in graphene. With the use of silicone beam telescopes that allow the tracking of particle trajectories and lead-glass calorimeters to measure energy deposition, this setup allows us to correlate scattering patterns with graphene's LLs. The experiment directs DESY's electron beam through a suspended graphene sample (1 cm x 1 cm) under DESY's dipole magnet (Fig. \ref{fig:setup}). The magnetic field induces Landau levels in graphene, altering the beam's scattering profile. The key components include:
 
@@ -116,7 +105,7 @@ The experiment varies three key parameters to map graphene's Quantum Hall respon
                 \midrule
                 Magnetic Field (\(B\)) & 1-1.35 T         & Controls spacing between Landau levels (LLs). Energy levels scale as \(E_n \propto \sqrt{B|n|}\). At 1.35 T, the \(n=1\) LL is \(\sim\)41.8meV above \(n=0\), which should create resolvable gaps for DESY's calorimeters. \\
                 \midrule
-                Beam Momentum          & 1-6 GeV/c        & Controls momentum transfer to Dirac fermions, Landau level excitation efficiency, and non-equilibrium carrier density effects.                                                                                             \\
+                Beam Momentum          & 1-6 GeV/c        & Controls momentum transfer to Dirac fermions and Landau level excitation efficiency.                                                                                                                                       \\
                 \midrule
                 Beam Charge            & \(e^-\), \(e^+\) & Positrons test QHE's charge symmetry. Asymmetry could reveal sublattice polarization or Berry phase effects \cite{LIU2017}.                                                                                                \\
             \end{tabularx}
