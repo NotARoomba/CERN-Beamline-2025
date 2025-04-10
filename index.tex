@@ -9,6 +9,8 @@
 \usepackage{booktabs}
 \usepackage{biblatex}
 \usepackage{csquotes}
+\usepackage{tabularx, booktabs, tikz}
+\usetikzlibrary{shapes.misc} % For rounded rectangles
 \addbibresource{refs.bib}
 
 \title{Probing Graphene's Anomalous Quantum Hall Effect via Relativistic Electron Beam Scattering}
@@ -21,7 +23,7 @@
 
 % Introduction
 \section{Introduction}
-The Quantum Hall Effect (QHE) is a phenomenon where the electrical conductivity of a material becomes quantized into discrete steps under strong magnetic fields. Usually, materials have to be supercooled to be able to observe these effects but it has been discovered that graphene can produce these same effects at room temperature. \cite{Novoselov2007} Unlike conventional materials, graphene's electrons behave as massless \textit{Dirac fermions}, leading to a "half-integer" QHE where conductivity plateaus occur at values of \(\sigma_{xy} = \pm(4e^2/h)(n + 1/2)\) instead of integers \cite{hsu2010anomalous}. This anomaly arises from graphene's hexagonal and plain atomic structure, where electrons follow the relativistic Dirac equation \cite{semenoff1984condensed}. We aim to probe these plateaus using DESY's electron beam, eliminating the need for cryogenic temperatures or invasive electrical contacts.
+The Quantum Hall Effect (QHE) is a phenomenon where the electrical conductivity of a material becomes quantized into discrete steps under strong magnetic fields. Usually, materials have to be supercooled to be able to observe these effects but it has been discovered that graphene can produce these same effects at room temperature \cite{Novoselov2007}. Unlike conventional materials, graphene's electrons behave as massless \textit{Dirac fermions}, leading to a "half-integer" QHE where conductivity plateaus occur at values of \(\sigma_{xy} = \pm(4e^2/h)(n + 1/2)\) instead of integers \cite{hsu2010anomalous}. This anomaly arises from graphene's hexagonal and plain atomic structure, where electrons follow the relativistic Dirac equation \cite{semenoff1984condensed}. We aim to probe these plateaus using DESY's electron beam, eliminating the need for cryogenic temperatures or invasive electrical contacts.
 
 % Why We to Go to DESY
 \section{Why We Want to Go to DESY}
@@ -94,24 +96,22 @@ The experiment systematically varies three key parameters to map graphene's Quan
 
 \begin{table}[H]
     \centering
-    \begin{tabular}{c|c|c}
-        \textbf{Parameter}     & \textbf{Range}   & \textbf{Purpose}                                  \\
-        \hline
-        Magnetic Field (\(B\)) & 1-1.35 T         & Controls the spacing between Landau levels (LLs). \\
-        Beam Energy            & 1-6 GeV          & Matches \(v_F \approx c/300\)                     \\
-        Beam Charge            & \(e^-\), \(e^+\) & Tests symmetry.                                   \\
-    \end{tabular}
-    \caption{Key experimental parameters and their roles in probing graphene's Quantum Hall Effect.}
+    \begin{tikzpicture}
+        \node [rectangle, rounded corners=5pt, draw, inner sep=10pt] { % Rounded border
+            \begin{tabularx}{0.95\textwidth}{l l X} % Reduced width for border spacing
+                \textbf{Parameter}     & \textbf{Range}   & \textbf{Purpose}                                                                                                                                                                                                \\
+                \midrule
+                Magnetic Field (\(B\)) & 1-1.35 T         & Controls spacing between Landau levels (LLs). Energy levels scale as \(E_n \propto \sqrt{B|n|}\). At 1.35 T, the \(n=1\) LL is \(\sim\)100 meV above \(n=0\), creating resolvable gaps for DESY's calorimeters. \\
+                \midrule
+                Beam Energy            & 1-6 GeV          & 1 GeV electrons (\(v \approx 0.94c\)) show weak coupling, while 6 GeV (\(v \approx 0.999c\)) maximizes relativistic interaction. Distinguishes classical vs quantum scattering regimes.                         \\
+                \midrule
+                Beam Charge            & \(e^-\), \(e^+\) & Positrons test QHE's charge symmetry. Asymmetry could reveal sublattice polarization or Berry phase effects \cite{LIU2017} .                                                                                    \\
+            \end{tabularx}
+        };
+    \end{tikzpicture}
+    \caption{Experimental parameters for graphene QHE investigation.}
     \label{tab:params}
 \end{table}
-
-\begin{itemize}
-    \item \textbf{Magnetic Field (\(B\)):} Landau levels in graphene scale as \(E_n \propto \sqrt{B|n|}\). At \(B = 1.35\) T, the \(n=1\) LL lies \(\sim\)100 meV above the \(n=0\) level, a resolvable energy gap for DESY's calorimeters. Reducing \(B\) to 1 T compresses LL spacing, testing the detector's resolution limits.
-
-    \item \textbf{Beam Energy:} Electrons at 1 GeV (\(v \approx 0.94c\)) interact weakly with graphene's Dirac fermions, while 6 GeV electrons (\(v \approx 0.999c\)) achieve maximal relativistic coupling. This range allows us to distinguish classical scattering regimes from quantum-resonant interactions.
-
-    \item \textbf{Beam Charge:} Positrons (\(e^+\)) probe whether the QHE's half-integer quantization depends on particle charge. A symmetry violation could indicate sublattice polarization or Berry phase modifications. \cite{LIU2017}
-\end{itemize}
 
 By combining these parameters, we reconstruct graphene's Quantum Hall plateaus (\(\sigma_{xy} = \pm2, \pm6, \ldots \times 4e^2/h\)) and test theoretical predictions under extreme conditions. For example, high \(B\) and low beam energy isolate \(n=0\) LL behavior, while positron beams explore antimatter analogs of Dirac fermion dynamics.
 
