@@ -11,6 +11,7 @@
 \usepackage{csquotes}
 \usepackage{tabularx, booktabs, tikz}
 \usetikzlibrary{shapes.misc} % For rounded rectangles
+% \bibliographystyle{ieeetr}
 \addbibresource{refs.bib}
 
 \title{Probing Graphene's Anomalous Quantum Hall Effect via Relativistic Electron Beam Scattering}
@@ -44,7 +45,7 @@ Landau levels (LLs) are quantized energy states that electrons occupy when subje
     \caption{Graphene's Landau levels and their quantization under a magnetic field. \cite{li2007observation}}
     \label{fig:levels}
 \end{figure}
-When a magnetic field \(B\) is applied perpendicular to graphene's plane, the Lorentz force confines the Dirac fermions (graphene's electrons) into discrete orbits. Solving the Dirac equation under these conditions yields the following energy spectrum:
+When a magnetic field \(B\) is applied perpendicular to graphene's plane, the Lorentz force confines the Dirac fermions (graphenes' electrons) into discrete orbits. Solving the Dirac equation under these conditions yields the following energy spectrum:
 \begin{equation}
     E_n = \text{sgn}(n)\hbar v_F \sqrt{2eB|n|}, \quad n = 0, \pm1, \pm2, \ldots
 \end{equation}
@@ -59,6 +60,12 @@ Here:
 
 The \(\sqrt{B|n|}\) dependence is a hallmark of graphene's relativistic nature. In non-relativistic materials (e.g., semiconductors), LLs scale linearly with \(B\) and \(n\): \(E_n \propto B(n + 1/2)\). Graphene's square-root relationship arises because its electrons obey the Dirac equation, which inherently links energy to the square root of momentum. This leads to unequally spaced LLs (e.g., \(E_1 - E_0 \neq E_2 - E_1\)) and the anomalous half-integer Quantum Hall Effect. The \(\text{sgn}(n)\) term ensures symmetry between electron (\(n > 0\)) and hole (\(n < 0\)) states, a direct consequence of graphene's bipartite lattice structure and Dirac cone geometry.
 
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/lorenz.png}
+    \caption{Lorenz force acting on electrons in a magnetic field, leading to quantized Landau levels in graphene.}
+    \label{fig:lorenz}
+\end{figure}
 \subsection{Hall Conductivity Quantization}
 The transverse (Hall) conductivity \(\sigma_{xy}\) becomes quantized in integer multiples of \(e^2/h\), a fundamental consequence of topology and gauge invariance \cite{france2025electrically}. The Quantum Hall Effect (QHE) in graphene exhibits a hallmark deviation from conventional materials: its Hall conductivity \(\sigma_{xy}\) quantizes at \textit{half-integer} multiples of \(4e^2/h\), expressed as:
 \begin{equation}
@@ -69,7 +76,7 @@ This anomalous quantization arises from two unique features of graphene:
 \begin{itemize}
     \item \textbf{Fourfold Degeneracy (\(4e^2/h\)):} Each Landau level in graphene accommodates four independent electron states due to its two spin orientations (spin-up/spin-down) and two valleys (\(K\) and \(K'\) points in the Brillouin zone). This degeneracy multiplies the conventional conductance quantum \(e^2/h\) by 4.
 
-    \item \textbf{Half-Integer Offset (\(n + 1/2\)):} The \(1/2\) shift originates from the Berry phase \(\pi\) acquired by Dirac fermions completing a cyclotron orbit. In graphene, the honeycomb lattice's symmetry imposes a geometric phase of \(\pi\) on circulating electrons, effectively altering the boundary conditions for quantization. This contrasts with non-relativistic materials, where the Berry phase is zero and conductivity quantizes at integers (\(n\)).
+    \item \textbf{Half-Integer Offset (\(n + 1/2\)):} The \(1/2\) shift originates from the Berry phase \(\pi\) acquired by Dirac fermions completing a cyclotron orbit. In graphene, the honeycomb lattice's symmetry imposes a geometric phase of \(\pi\) on circulating electrons, effectively altering the boundary conditions for quantization. This contrasts with non-relativistic materials, where the Berry phase is zero and conductivity quantizes at integers (\(n\)) \cite{M_V_Berry_1980}.
 \end{itemize}
 
 The filling factor \(\nu\), defined as \(\nu = n_e h / eB\) (where \(n_e\) is the electron density), determines the occupancy of Landau levels. In graphene, the relationship \(\nu = \pm4(n + 1/2)\) leads to conductivity plateaus at \(\nu = \pm2, \pm6, \pm10, \ldots\). These plateaus correspond to fully filled Landau levels, where scattering is suppressed, and \(\sigma_{xy}\) becomes \textit{universally precise}, independent of material defects or sample geometry.
@@ -107,7 +114,7 @@ The experiment systematically varies three key parameters to map graphene's Quan
                 \midrule
                 Beam Energy            & 1-6 GeV          & 1 GeV electrons (\(v \approx 0.94c\)) show weak coupling, while 6 GeV (\(v \approx 0.999c\)) maximizes relativistic interaction. Distinguishes classical vs quantum scattering regimes.                         \\
                 \midrule
-                Beam Charge            & \(e^-\), \(e^+\) & Positrons test QHE's charge symmetry. Asymmetry could reveal sublattice polarization or Berry phase effects \cite{LIU2017} .                                                                                    \\
+                Beam Charge            & \(e^-\), \(e^+\) & Positrons test QHE's charge symmetry. Asymmetry could reveal sublattice polarization or Berry phase effects \cite{LIU2017}.                                                                                     \\
             \end{tabularx}
         };
     \end{tikzpicture}
@@ -119,6 +126,9 @@ By combining these parameters, we reconstruct graphene's Quantum Hall plateaus (
 
 \section{Materials and Budget}
 A detailed cost breakdown is available in our \href{https://docs.google.com/spreadsheets/d/1yHHGXo7aPC6-99GpaHHJ5hi_KQ2__5M-3WwTXWNNCyk/edit?usp=sharing}{Google Sheets}.
+
+\section{Community Impact}
+Over the past few years, we've visited several towns and places across the Caribbean region of Colombia, teaching children, especially older students, about math and physics in ways that feel interesting and exciting. Our goal has been to spark their curiosity and help them see that science and innovation isn't out of reach, that they too can pursue it. In a country where the shortage of engineers and scientists holds back development, we think and believe that inspiring the next generation is a step toward changing that. With every workshop, conversation, and experiment, we are building a stronger community, one where more young minds see a future in STEM fields.
 
 % References
 \printbibliography
