@@ -1,7 +1,7 @@
 \documentclass[12pt, a4paper]{article}
 \usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage{hyperref}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
 \usepackage{float}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
@@ -21,14 +21,22 @@
 
 % Introduction
 \section{Introduction}
-The Quantum Hall Effect (QHE) is a phenomenon where the electrical conductivity of a material becomes quantized into discrete steps under strong magnetic fields. Usually, materials have to be supercooled to be able to observe these effects but it has been discovered that graphene can produce these same effects at room temperature. \cite{Novoselov2007} Unlike conventional materials, graphene's electrons behave as massless particles called \textit{Dirac fermions}, leading to a "half-integer" QHE where conductivity plateaus occur at values of \(\sigma_{xy} = \pm(4e^2/h)(n + 1/2)\) instead of integers \cite{hsu2010anomalous}. This anomaly arises from graphene's hexagonal atomic structure, where electrons follow the relativistic Dirac equation \cite{semenoff1984condensed}. Our experiment aims to probe these quantum states using DESY's relativistic electron beam, eliminating the need for cryogenic temperatures or invasive electrical contacts.
+The Quantum Hall Effect (QHE) is a phenomenon where the electrical conductivity of a material becomes quantized into discrete steps under strong magnetic fields. Usually, materials have to be supercooled to be able to observe these effects but it has been discovered that graphene can produce these same effects at room temperature. \cite{Novoselov2007} Unlike conventional materials, graphene's electrons behave as massless \textit{Dirac fermions}, leading to a "half-integer" QHE where conductivity plateaus occur at values of \(\sigma_{xy} = \pm(4e^2/h)(n + 1/2)\) instead of integers \cite{hsu2010anomalous}. This anomaly arises from graphene's hexagonal atomic structure, where electrons follow the relativistic Dirac equation \cite{semenoff1984condensed}. We aim to probe these plateaus using DESY's electron beam, eliminating the need for cryogenic temperatures or invasive electrical contacts.
 
-% Why We Want to Go to DESY
+% Why We to Go to DESY
 \section{Why We Want to Go to DESY}
-DESY's infrastructure is uniquely suited for this study. The 1-6 GeV electron beam provides relativistic particles whose energies align with graphene's Dirac fermion dynamics. DESY's 1.35 T dipole electromagnet, a fixed installation in the experimental area, enables the strong magnetic fields required to induce Landau quantization - the formation of discrete energy levels in graphene. Combined with beam telescopes (silicon detectors tracking particle trajectories) and lead-glass calorimeters (measuring energy deposition), this setup allows us to correlate scattering patterns with graphene's quantum states. As students, this opportunity bridges classroom physics with cutting-edge research, offering hands-on training in accelerator science and quantum materials.
+DESY represents the chance to step into a world we've only dreamed of, a place where real science happens, where light unravels the mysteries of the universe. Coming from a country where advanced research infrastructure like particle accelerators isn't yet a reality, this opportunity means more than just pursuing a project. It's about experiencing cutting-edge science firsthand, and bringing that knowledge back to inspire and educate our community, students, teachers, and young minds who've never seen this kind of possibility up close. For us, DESY could be the start of something far greater, the beginning of our journey as scientists and changemakers.
+
 
 % Methodology
 \section{Experiment and Methodology}
+Th main objective of this experiment is to observe and test if the Quantum Hall Effect can be reproduced in graphite through an electron/positron beam. When the beam passes through the graphene sample, the electrons scatter off the graphene's Dirac fermions, producing a unique scattering pattern that can be analyzed to extract information about the QHE. This experiment will provide insights into the fundamental physics of graphene. \ref{fig:levels}
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/levels.png}
+    \caption{Graphene's Landau levels and their quantization under a magnetic field. \cite{li2007observation}}
+    \label{fig:levels}
+\end{figure}
 \subsection{Landau Levels in Graphene}
 Landau levels (LLs) are quantized energy states that electrons occupy when subjected to a perpendicular magnetic field \cite{landau1930diamagnetismus}. In conventional materials, these levels arise from the cyclotron motion of electrons, where their classical circular orbits become quantized due to quantum mechanics. However, graphene's unique electronic structure, governed by the relativistic Dirac equation for massless fermions, leads to fundamentally distinct LL behavior.
 
@@ -68,7 +76,7 @@ The filling factor \(\nu\), defined as \(\nu = n_e h / eB\) (where \(n_e\) is th
 \noindent
 \textbf{Why This Matters:} The half-integer QHE in graphene is not merely a theoretical curiosity—it underscores the material's relativistic electronic structure and topological robustness. Observed even at room temperature under strong magnetic fields (\(\sim10\) T), this phenomenon highlights graphene's potential for quantum metrology and fault-tolerant electronics.
 \subsection{Experimental Design}
-The experiment directs DESY's electron beam through a suspended graphene sample (1 cm x 1 cm) under DESY's dipole magnet (Fig. \ref{fig:setup}). The magnetic field induces Landau levels in graphene, altering the beam's scattering profile. Key components include:
+DESY's infrastructure is uniquely suited for this study. The 1-6 GeV electron beam provides relativistic particles whose energies align with graphene's Dirac fermion dynamics. DESY's 1.35 T dipole electromagnet, a fixed installation in the experimental area, enables the strong magnetic fields required to induce Landau quantization - the formation of discrete energy levels in graphene. Combined with beam telescopes (silicon detectors tracking particle trajectories) and lead-glass calorimeters (measuring energy deposition), this setup allows us to correlate scattering patterns with graphene's quantum states. The experiment directs DESY's electron beam through a suspended graphene sample (1 cm x 1 cm) under DESY's dipole magnet (Fig. \ref{fig:setup}). The magnetic field induces Landau levels in graphene, altering the beam's scattering profile. Key components include:
 \begin{itemize}
     \item \textbf{Graphene Sample}: Monolayer (commercially sourced).
     \item \textbf{Halo Counter}: Detects scattered electrons, providing a reference for beam intensity and energy.

@@ -161,6 +161,49 @@
       \verb 10.1007/bf01397213
       \endverb
     \endentry
+    \entry{li2007observation}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=0f2234b06477ac71f67fe16d3e2b397f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=1870e81745e941a4f53dd99038aa66a2}{%
+           family={Andrei},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{fullhash}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{fullhashraw}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{bibnamehash}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{authorbibnamehash}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{authornamehash}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{authorfullhash}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{authorfullhashraw}{0975b39aa42ae2a677612c8798fe2609}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nat. Phys.}
+      \field{month}{9}
+      \field{note}{Received: 1 December 2006, Accepted: 29 May 2007, Published: 8 July 2007, Issue Date: September 2007}
+      \field{title}{Observation of Landau levels of Dirac fermions in graphite}
+      \field{volume}{3}
+      \field{year}{2007}
+      \field{pages}{623\bibrangedash 627}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/nphys653
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nphys653
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nphys653
+      \endverb
+    \endentry
     \entry{LIU2017}{article}{}{}
       \name{author}{2}{}{%
         {{hash=4caed3929b08434f299242327b396e0a}{%
