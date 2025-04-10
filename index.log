@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.6)  10 APR 2025 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.6)  10 APR 2025 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -651,11 +651,11 @@ Package pdftex.def Info: images/levels.png  used on input line 39.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.57 
-      <./images/levels.png>]
+l.58 \subsection
+                {Hall Conductivity Quantization} <./images/levels.png>]
 
 [3]
-<images/experiment.png, id=78, 713.66624pt x 301.125pt>
+<images/experiment.png, id=79, 713.66624pt x 301.125pt>
 File: images/experiment.png Graphic file (type png)
 <use images/experiment.png>
 Package pdftex.def Info: images/experiment.png  used on input line 90.
@@ -666,13 +666,13 @@ Package pdftex.def Info: images/experiment.png  used on input line 90.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.116 \end{itemize}
-                   
+l.119 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.116 \end{itemize}
-                    <./images/experiment.png>]
+l.119 
+       <./images/experiment.png>]
 
 [5] (index.aux)
  ***********
@@ -688,13 +688,13 @@ Package logreq Info: Writing requests to 'index.run.xml'.
 Here is how much of TeX's memory you used:
  18851 strings out of 473681
  333897 string characters out of 5718719
- 1183200 words of memory out of 5000000
+ 1183136 words of memory out of 5000000
  41713 multiletter control sequences out of 15000+600000
  565516 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,81p,1041b,1747s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Nathan\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Nathan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on index.pdf (5 pages, 219827 bytes).
+Output written on index.pdf (5 pages, 219726 bytes).
 PDF statistics:
  170 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
