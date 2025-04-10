@@ -1,0 +1,21 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'index.blg'
+[154] biber-MSWIN64:340> INFO - === 
+[214] Biber.pm:419> INFO - Reading 'index.bcf'
+[381] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
+[401] Biber.pm:4419> INFO - Processing section 0
+[417] Biber.pm:4610> INFO - Looking for bibtex file 'refs.bib' for section 0
+[520] bibtex.pm:1713> INFO - LaTeX decoding ...
+[543] bibtex.pm:1519> INFO - Found BibTeX data source 'refs.bib'
+[639] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[640] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[640] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[640] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[652] bbl.pm:660> INFO - Writing 'index.bbl' with encoding 'UTF-8'
+[660] bbl.pm:763> INFO - Output to index.bbl
+[660] Biber.pm:131> WARN - legacy month field 'Mar' in entry 'Novoselov2007' is not an integer - this will probably not sort properly.
+[660] Biber.pm:131> WARN - legacy month field 'Aug' in entry 'hsu2010anomalous' is not an integer - this will probably not sort properly.
+[660] Biber.pm:131> WARN - legacy month field 'Dec' in entry 'semenoff1984condensed' is not an integer - this will probably not sort properly.
+[661] Biber.pm:131> WARN - legacy month field 'Sep' in entry 'li2007observation' is not an integer - this will probably not sort properly.
+[661] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'france2025electrically' is not an integer - this will probably not sort properly.
+[661] Biber.pm:133> INFO - WARNINGS: 5
