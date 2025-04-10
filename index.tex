@@ -21,7 +21,7 @@
 
 % Introduction
 \section{Introduction}
-The Quantum Hall Effect (QHE), a phenomenon where the electrical conductivity of a material becomes quantized into discrete steps under strong magnetic fields, exhibits unique behavior in graphene at room temperature. \cite{Novoselov2007} Unlike conventional materials, graphene's electrons behave as massless particles called \textit{Dirac fermions}, leading to a "half-integer" QHE where conductivity plateaus occur at values of \(\sigma_{xy} = \pm(4e^2/h)(n + 1/2)\) instead of integers \cite{hsu2010anomalous}. This anomaly arises from graphene's hexagonal atomic structure, where electrons follow the relativistic Dirac equation \cite{semenoff1984condensed}. Our experiment aims to probe these quantum states using DESY's relativistic electron beam, eliminating the need for cryogenic temperatures or invasive electrical contacts.
+The Quantum Hall Effect (QHE) is a phenomenon where the electrical conductivity of a material becomes quantized into discrete steps under strong magnetic fields. Usually, materials have to be supercooled to be able to observe these effects but it has been discovered that graphene can produce these same effects at room temperature. \cite{Novoselov2007} Unlike conventional materials, graphene's electrons behave as massless particles called \textit{Dirac fermions}, leading to a "half-integer" QHE where conductivity plateaus occur at values of \(\sigma_{xy} = \pm(4e^2/h)(n + 1/2)\) instead of integers \cite{hsu2010anomalous}. This anomaly arises from graphene's hexagonal atomic structure, where electrons follow the relativistic Dirac equation \cite{semenoff1984condensed}. Our experiment aims to probe these quantum states using DESY's relativistic electron beam, eliminating the need for cryogenic temperatures or invasive electrical contacts.
 
 % Why We Want to Go to DESY
 \section{Why We Want to Go to DESY}
@@ -29,25 +29,8 @@ DESY's infrastructure is uniquely suited for this study. The 1-6 GeV electron be
 
 % Methodology
 \section{Experiment and Methodology}
-\subsection{Experimental Design}
-The experiment directs DESY's electron beam through a suspended graphene sample (2 cm × 2 cm) under DESY's dipole magnet (Fig. \ref{fig:setup}). The magnetic field induces Landau levels in graphene, altering the beam's scattering profile. Key components include:
-\begin{itemize}
-    \item \textbf{Graphene Sample}: Monolayer on SiC substrate (commercially sourced).
-    \item \textbf{Dipole Magnet}: Generates 1.35 T field perpendicular to the graphene plane.
-    \item \textbf{Beam Telescopes}: Track scattering angles with \(\mu\)m precision.
-    \item \textbf{Calorimeters}: Measure energy loss via lead-glass detectors.
-\end{itemize}
-
-\begin{figure}[ht!]
-    \centering
-    % \includegraphics[width=0.8\textwidth]{setup_diagram.png}
-    \caption{(a) DESY beamline with graphene sample; (b) Dipole magnet alignment; (c) Detection system.}
-    \label{fig:setup}
-\end{figure}
-
-\subsection{Theoretical Framework}
-\subsubsection{Landau Levels in Graphene}
-Landau levels (LLs) are quantized energy states that electrons occupy when subjected to a perpendicular magnetic field \cite{landau1930diamagnetismus}. In conventional materials, these levels arise from the cyclotron motion of electrons, where their classical circular orbits become quantized due to quantum mechanics. However, graphene's unique electronic structure—governed by the relativistic Dirac equation for massless fermions—leads to fundamentally distinct LL behavior.
+\subsection{Landau Levels in Graphene}
+Landau levels (LLs) are quantized energy states that electrons occupy when subjected to a perpendicular magnetic field \cite{landau1930diamagnetismus}. In conventional materials, these levels arise from the cyclotron motion of electrons, where their classical circular orbits become quantized due to quantum mechanics. However, graphene's unique electronic structure, governed by the relativistic Dirac equation for massless fermions, leads to fundamentally distinct LL behavior.
 
 When a magnetic field \(B\) is applied perpendicular to graphene's plane, the Lorentz force confines the Dirac fermions (graphene's electrons) into discrete orbits. Solving the Dirac equation under these conditions yields the following energy spectrum:
 \begin{equation}
@@ -64,7 +47,7 @@ Here:
 
 The \(\sqrt{B|n|}\) dependence is a hallmark of graphene's relativistic nature. In non-relativistic materials (e.g., semiconductors), LLs scale linearly with \(B\) and \(n\): \(E_n \propto B(n + 1/2)\). Graphene's square-root relationship arises because its electrons obey the Dirac equation, which inherently links energy to the square root of momentum. This leads to unequally spaced LLs (e.g., \(E_1 - E_0 \neq E_2 - E_1\)) and the anomalous half-integer Quantum Hall Effect. The \(\text{sgn}(n)\) term ensures symmetry between electron (\(n > 0\)) and hole (\(n < 0\)) states, a direct consequence of graphene's bipartite lattice structure and Dirac cone geometry.
 
-\subsubsection{Hall Conductivity Quantization}
+\subsection{Hall Conductivity Quantization}
 In quantum Hall systems, when a strong magnetic field is applied perpendicular to a 2D material, electrons move in circular orbits (Landau levels). Remarkably, the transverse (Hall) conductivity \(\sigma_{xy}\) becomes quantized in integer multiples of \(e^2/h\), a fundamental consequence of topology and gauge invariance. \cite{france2025electrically}
 
 The Quantum Hall Effect (QHE) in graphene exhibits a hallmark deviation from conventional materials: its Hall conductivity \(\sigma_{xy}\) quantizes at \textit{half-integer} multiples of \(4e^2/h\), expressed as:
@@ -84,6 +67,22 @@ The filling factor \(\nu\), defined as \(\nu = n_e h / eB\) (where \(n_e\) is th
 \vspace{0.2cm}
 \noindent
 \textbf{Why This Matters:} The half-integer QHE in graphene is not merely a theoretical curiosity—it underscores the material's relativistic electronic structure and topological robustness. Observed even at room temperature under strong magnetic fields (\(\sim10\) T), this phenomenon highlights graphene's potential for quantum metrology and fault-tolerant electronics.
+\subsection{Experimental Design}
+The experiment directs DESY's electron beam through a suspended graphene sample (1 cm x 1 cm) under DESY's dipole magnet (Fig. \ref{fig:setup}). The magnetic field induces Landau levels in graphene, altering the beam's scattering profile. Key components include:
+\begin{itemize}
+    \item \textbf{Graphene Sample}: Monolayer (commercially sourced).
+    \item \textbf{Halo Counter}: Detects scattered electrons, providing a reference for beam intensity and energy.
+    \item \textbf{Dipole Magnet}: Generates 1.35 T field perpendicular to the graphene plane.
+    \item \textbf{Beam Telescopes}: Track scattering for later analysis.
+    \item \textbf{Calorimeters}: Measure energy loss via lead-glass detectors.
+\end{itemize}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/experiment.png}
+    \caption{DESY beamline with graphene sample, dipole magnet alignment, detection system.}
+    \label{fig:setup}
+\end{figure}
 \subsection{Parameter Space}
 The experiment systematically varies three key parameters to map graphene's Quantum Hall response under relativistic beam conditions. These parameters were chosen to isolate the effects of Landau quantization, relativistic coupling, and particle-antiparticle symmetry:
 
@@ -111,12 +110,7 @@ The experiment systematically varies three key parameters to map graphene's Quan
 By combining these parameters, we reconstruct graphene's Quantum Hall plateaus (\(\sigma_{xy} = \pm2, \pm6, \ldots \times 4e^2/h\)) and test theoretical predictions under extreme conditions. For example, high \(B\) and low beam energy isolate \(n=0\) LL behavior, while positron beams explore antimatter analogs of Dirac fermion dynamics.
 
 \section{Materials and Budget}
-A detailed cost breakdown is available in our \href{https://docs.google.com/spreadsheets/d/EXAMPLE}{Google Sheets}. Major expenses include:
-\begin{itemize}
-    \item Graphene sample: \$200
-    \item Signal amplifiers: \$150
-    \item Vacuum chamber adapters: \$100
-\end{itemize}
+A detailed cost breakdown is available in our \href{https://docs.google.com/spreadsheets/d/1yHHGXo7aPC6-99GpaHHJ5hi_KQ2__5M-3WwTXWNNCyk/edit?usp=sharing}{Google Sheets}.
 
 % References
 \printbibliography
