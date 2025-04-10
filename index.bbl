@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{france2025electrically}{article}{}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{france2025electrically}{article}{}{}
       \name{author}{7}{}{%
         {{hash=eca7a644625665b74453fc6ba9950ce3}{%
            family={France},
@@ -59,10 +59,12 @@
       }
       \strng{namehash}{99a4cf2c874b981d570eed5ff6fa2fd5}
       \strng{fullhash}{d9386e0fd7309ed67afe3dd4e9ffbd47}
+      \strng{fullhashraw}{d9386e0fd7309ed67afe3dd4e9ffbd47}
       \strng{bibnamehash}{99a4cf2c874b981d570eed5ff6fa2fd5}
       \strng{authorbibnamehash}{99a4cf2c874b981d570eed5ff6fa2fd5}
       \strng{authornamehash}{99a4cf2c874b981d570eed5ff6fa2fd5}
       \strng{authorfullhash}{d9386e0fd7309ed67afe3dd4e9ffbd47}
+      \strng{authorfullhashraw}{d9386e0fd7309ed67afe3dd4e9ffbd47}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{labelnamesource}{author}
@@ -84,7 +86,7 @@
       \verb https://arxiv.org/abs/2502.01052v1
       \endverb
     \endentry
-    \entry{hsu2010anomalous}{article}{}
+    \entry{hsu2010anomalous}{article}{}{}
       \name{author}{2}{}{%
         {{hash=995280a910f6df09ea84e07e4c2bddbf}{%
            family={Hsu},
@@ -99,10 +101,12 @@
       }
       \strng{namehash}{49d22975bdea6f49acf43e335e55ebe9}
       \strng{fullhash}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{fullhashraw}{49d22975bdea6f49acf43e335e55ebe9}
       \strng{bibnamehash}{49d22975bdea6f49acf43e335e55ebe9}
       \strng{authorbibnamehash}{49d22975bdea6f49acf43e335e55ebe9}
       \strng{authornamehash}{49d22975bdea6f49acf43e335e55ebe9}
       \strng{authorfullhash}{49d22975bdea6f49acf43e335e55ebe9}
+      \strng{authorfullhashraw}{49d22975bdea6f49acf43e335e55ebe9}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labelnamesource}{author}
@@ -124,7 +128,7 @@
       \verb https://arxiv.org/abs/1008.0748v1
       \endverb
     \endentry
-    \entry{landau1930diamagnetismus}{article}{}
+    \entry{landau1930diamagnetismus}{article}{}{}
       \name{author}{1}{}{%
         {{hash=cd545b80546b076f776588900c84fce0}{%
            family={Landau},
@@ -134,10 +138,12 @@
       }
       \strng{namehash}{cd545b80546b076f776588900c84fce0}
       \strng{fullhash}{cd545b80546b076f776588900c84fce0}
+      \strng{fullhashraw}{cd545b80546b076f776588900c84fce0}
       \strng{bibnamehash}{cd545b80546b076f776588900c84fce0}
       \strng{authorbibnamehash}{cd545b80546b076f776588900c84fce0}
       \strng{authornamehash}{cd545b80546b076f776588900c84fce0}
       \strng{authorfullhash}{cd545b80546b076f776588900c84fce0}
+      \strng{authorfullhashraw}{cd545b80546b076f776588900c84fce0}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -155,7 +161,7 @@
       \verb 10.1007/bf01397213
       \endverb
     \endentry
-    \entry{li2007observation}{article}{}
+    \entry{li2007observation}{article}{}{}
       \name{author}{2}{}{%
         {{hash=0f2234b06477ac71f67fe16d3e2b397f}{%
            family={Li},
@@ -170,10 +176,12 @@
       }
       \strng{namehash}{0975b39aa42ae2a677612c8798fe2609}
       \strng{fullhash}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{fullhashraw}{0975b39aa42ae2a677612c8798fe2609}
       \strng{bibnamehash}{0975b39aa42ae2a677612c8798fe2609}
       \strng{authorbibnamehash}{0975b39aa42ae2a677612c8798fe2609}
       \strng{authornamehash}{0975b39aa42ae2a677612c8798fe2609}
       \strng{authorfullhash}{0975b39aa42ae2a677612c8798fe2609}
+      \strng{authorfullhashraw}{0975b39aa42ae2a677612c8798fe2609}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -196,7 +204,7 @@
       \verb https://doi.org/10.1038/nphys653
       \endverb
     \endentry
-    \entry{LIU2017}{article}{}
+    \entry{LIU2017}{article}{}{}
       \name{author}{2}{}{%
         {{hash=4caed3929b08434f299242327b396e0a}{%
            family={Liu},
@@ -211,10 +219,12 @@
       }
       \strng{namehash}{225f8b8c97ae4692a5064497a4c3968a}
       \strng{fullhash}{225f8b8c97ae4692a5064497a4c3968a}
+      \strng{fullhashraw}{225f8b8c97ae4692a5064497a4c3968a}
       \strng{bibnamehash}{225f8b8c97ae4692a5064497a4c3968a}
       \strng{authorbibnamehash}{225f8b8c97ae4692a5064497a4c3968a}
       \strng{authornamehash}{225f8b8c97ae4692a5064497a4c3968a}
       \strng{authorfullhash}{225f8b8c97ae4692a5064497a4c3968a}
+      \strng{authorfullhashraw}{225f8b8c97ae4692a5064497a4c3968a}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -236,7 +246,7 @@
       \verb https://doi.org/10.1038/srep45015
       \endverb
     \endentry
-    \entry{Novoselov2007}{article}{}
+    \entry{Novoselov2007}{article}{}{}
       \name{author}{10}{}{%
         {{hash=edc496cb40fecf35de2f2957fb7a20ac}{%
            family={Novoselov},
@@ -291,10 +301,12 @@
       }
       \strng{namehash}{fca77cb58b7f342711c9d7fa90d2e237}
       \strng{fullhash}{c0daba06b7cc75dbfa367c29c8e92606}
+      \strng{fullhashraw}{c0daba06b7cc75dbfa367c29c8e92606}
       \strng{bibnamehash}{fca77cb58b7f342711c9d7fa90d2e237}
       \strng{authorbibnamehash}{fca77cb58b7f342711c9d7fa90d2e237}
       \strng{authornamehash}{fca77cb58b7f342711c9d7fa90d2e237}
       \strng{authorfullhash}{c0daba06b7cc75dbfa367c29c8e92606}
+      \strng{authorfullhashraw}{c0daba06b7cc75dbfa367c29c8e92606}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
@@ -311,7 +323,7 @@
       \verb 10.1126/science.1137201
       \endverb
     \endentry
-    \entry{semenoff1984condensed}{article}{}
+    \entry{semenoff1984condensed}{article}{}{}
       \name{author}{1}{}{%
         {{hash=52b16ca8749fb6f809b36ec968e2d7bd}{%
            family={Semenoff},
@@ -321,10 +333,12 @@
       }
       \strng{namehash}{52b16ca8749fb6f809b36ec968e2d7bd}
       \strng{fullhash}{52b16ca8749fb6f809b36ec968e2d7bd}
+      \strng{fullhashraw}{52b16ca8749fb6f809b36ec968e2d7bd}
       \strng{bibnamehash}{52b16ca8749fb6f809b36ec968e2d7bd}
       \strng{authorbibnamehash}{52b16ca8749fb6f809b36ec968e2d7bd}
       \strng{authornamehash}{52b16ca8749fb6f809b36ec968e2d7bd}
       \strng{authorfullhash}{52b16ca8749fb6f809b36ec968e2d7bd}
+      \strng{authorfullhashraw}{52b16ca8749fb6f809b36ec968e2d7bd}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
